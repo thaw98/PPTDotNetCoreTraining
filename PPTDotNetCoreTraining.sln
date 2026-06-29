@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37411.7 d17.14
+VisualStudioVersion = 17.14.37411.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTDotNetCoreTraining", "PPTDotNetCoreTraining\PPTDotNetCoreTraining.csproj", "{1D28A6E6-3254-4AA5-9E3F-41F59B5EB3AA}"
 EndProject
@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.RestApi", "DotNetTrainingBatch5.RestApi\DotNetTrainingBatch5.RestApi.csproj", "{2C4749DF-1F03-4965-A489-83BD3BE317A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.Database", "DotNetTrainingBatch5.Database\DotNetTrainingBatch5.Database.csproj", "{15F2E62C-24F3-4BDF-A0E7-6AC67EB5C6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.ConsoleApp2", "DotNetTrainingBatch5.ConsoleApp2\DotNetTrainingBatch5.ConsoleApp2.csproj", "{FD7F01C9-11A4-4531-B5AB-079C1982B952}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +26,18 @@ Global
 		{1D28A6E6-3254-4AA5-9E3F-41F59B5EB3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D28A6E6-3254-4AA5-9E3F-41F59B5EB3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D28A6E6-3254-4AA5-9E3F-41F59B5EB3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4749DF-1F03-4965-A489-83BD3BE317A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4749DF-1F03-4965-A489-83BD3BE317A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4749DF-1F03-4965-A489-83BD3BE317A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4749DF-1F03-4965-A489-83BD3BE317A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F2E62C-24F3-4BDF-A0E7-6AC67EB5C6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F2E62C-24F3-4BDF-A0E7-6AC67EB5C6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F2E62C-24F3-4BDF-A0E7-6AC67EB5C6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F2E62C-24F3-4BDF-A0E7-6AC67EB5C6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7F01C9-11A4-4531-B5AB-079C1982B952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7F01C9-11A4-4531-B5AB-079C1982B952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7F01C9-11A4-4531-B5AB-079C1982B952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7F01C9-11A4-4531-B5AB-079C1982B952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
