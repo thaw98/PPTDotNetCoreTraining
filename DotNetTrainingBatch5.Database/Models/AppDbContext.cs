@@ -17,6 +17,13 @@ public partial class AppDbContext : DbContext
 
     public virtual DbSet<TblBlog> TblBlogs { get; set; }
 
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            String
+        }
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
